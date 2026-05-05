@@ -1,4 +1,4 @@
- <script>
+
         // --- Bubbles ---
         (function(){
             const wrap = document.getElementById('bubbles');
@@ -59,4 +59,3 @@
         document.querySelectorAll('.editable').forEach(el=>{
             el.addEventListener('click', e => e.stopPropagation());
         });
-    </script>
